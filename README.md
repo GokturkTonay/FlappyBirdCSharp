@@ -8,3 +8,6 @@ This is a simple Flappy Bird game implemented in C# using Windows Forms.
 - Score system included.
 - Game Over screen and Start button implemented.
 - Smooth movement and collision detection.
+
+## Author
+Göktürk Tonay
