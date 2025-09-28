@@ -118,6 +118,24 @@ namespace WindowsFormsApp1
             {
                 EndGame();
             }
+
+            // Çarpışma kontrolü
+            if (bird.Bounds.IntersectsWith(pipeBottom2.Bounds) ||
+                bird.Bounds.IntersectsWith(pipeTop2.Bounds) ||
+                bird.Bounds.IntersectsWith(ground.Bounds) ||
+                bird.Top < -25)
+            {
+                EndGame();
+            }
+
+            // Çarpışma kontrolü
+            if (bird.Bounds.IntersectsWith(pipeBottom3.Bounds) ||
+                bird.Bounds.IntersectsWith(pipeTop3.Bounds) ||
+                bird.Bounds.IntersectsWith(ground.Bounds) ||
+                bird.Top < -25)
+            {
+                EndGame();
+            }
         }
 
         private void ResetGame()
