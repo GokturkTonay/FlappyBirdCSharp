@@ -33,16 +33,6 @@ namespace WindowsFormsApp1
             gameTimer.Stop(); // oyun başlamasın
             startLabel.Visible = true; // start yazısı görünsün
 
-            gameOverBox.BackColor = Color.Transparent;
-            bird.BackColor = Color.Transparent;
-            pipeTop1.BackColor = Color.Transparent;
-            pipeBottom1.BackColor = Color.Transparent;
-            pipeTop2.BackColor = Color.Transparent;
-            pipeBottom2.BackColor = Color.Transparent;
-            pipeTop3.BackColor = Color.Transparent;
-            pipeBottom3.BackColor = Color.Transparent;
-            scoreLabel.BackColor = Color.Transparent;
-
             gameOverBox.Visible = false;
 
             gameTimer.Tick += GameTimerEvent;
@@ -59,7 +49,6 @@ namespace WindowsFormsApp1
             ResetPipes(pipeTop2, pipeBottom2);
             ResetPipes(pipeTop3, pipeBottom3);
 
-            // İkinci boru setini biraz daha ileriye kaydır
             pipeTop2.Left += 230;
             pipeBottom2.Left += 230;
 
@@ -145,7 +134,7 @@ namespace WindowsFormsApp1
             score = 0;
             scoreLabel.Text = "Score: " + score;
 
-            bird.Top = this.ClientSize.Height / 2;
+            bird.Top = this.ClientSize.Height / 2 + -50;
 
             ResetPipes(pipeTop1, pipeBottom1);
             ResetPipes(pipeTop2, pipeBottom2);
@@ -178,7 +167,7 @@ namespace WindowsFormsApp1
             }
         }
 
-        private void ResetPipes(PictureBox topPipe, PictureBox bottomPipe)
+        private void ResetPipes(DevExpress.XtraEditors.PictureEdit topPipe, DevExpress.XtraEditors.PictureEdit bottomPipe)
         {
             int gap = 150; // Üst ve alt boru arası boşluk
             int minY = 4;
@@ -202,12 +191,7 @@ namespace WindowsFormsApp1
             startLabel.Text = "PLAY AGAIN";
         }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
+        private void startLabel_Click(object sender, EventArgs e)
         {
             startLabel.Visible = false; // start yazısını gizle
             ResetGame(); // oyun nesnelerini başa sar
