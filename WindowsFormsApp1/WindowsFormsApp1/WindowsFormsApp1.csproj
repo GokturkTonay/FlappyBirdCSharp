@@ -67,18 +67,18 @@
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -95,6 +95,8 @@
     <Content Include="Assets\gameover.png" />
     <Content Include="Assets\pipe-green.png" />
     <Content Include="Assets\yellowbird-midflap.png" />
+    <None Include="Resources\yellowbird-downflap.png" />
+    <None Include="Resources\yellowbird-upflap.png" />
     <None Include="Resources\gameover.png" />
     <None Include="Resources\Flappy Bird Blue Video Games Flying - Sprite PNG.jpeg" />
     <None Include="Resources\base.png" />

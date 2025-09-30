@@ -20,6 +20,8 @@ namespace WindowsFormsApp1
         int birdSpeed = 0;     // Kuşun anlık hızı
         int maxFallSpeed = 6;
         Random rand = new Random();
+        Image[] birdFrames;
+        int currentFrame = 0;
 
         public Form1()
         {

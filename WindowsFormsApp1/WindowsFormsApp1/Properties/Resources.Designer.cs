@@ -113,9 +113,29 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap yellowbird_downflap {
+            get {
+                object obj = ResourceManager.GetObject("yellowbird-downflap", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap yellowbird_midflap {
             get {
                 object obj = ResourceManager.GetObject("yellowbird-midflap", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap yellowbird_upflap {
+            get {
+                object obj = ResourceManager.GetObject("yellowbird-upflap", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

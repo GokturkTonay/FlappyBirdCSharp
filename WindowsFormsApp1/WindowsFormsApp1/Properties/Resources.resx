@@ -121,19 +121,25 @@
   <data name="Flappy Bird Blue Video Games Flying - Sprite PNG" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Flappy Bird Blue Video Games Flying - Sprite PNG.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="yellowbird-midflap" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\yellowbird-midflap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="background-day" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\background-day.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="pipe-green" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pipe-green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="base" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\base.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="background-day" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background-day.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yellowbird-midflap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yellowbird-midflap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="gameover" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gameover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yellowbird-downflap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yellowbird-downflap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yellowbird-upflap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yellowbird-upflap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
