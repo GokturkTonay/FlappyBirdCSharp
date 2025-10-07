@@ -15,10 +15,10 @@ namespace WindowsFormsApp1
 
         int gravity = 2;         // Kuşun düşme hızı
         int jumpForce = -15;      // Space basınca yukarı hareket
-        int pipeSpeed = 8;       // Boruların hızı
+        int pipeSpeed = 7;       // Boruların hızı
         int score = 0;
         int birdSpeed = 0;     // Kuşun anlık hızı
-        int maxFallSpeed = 6;
+        int maxFallSpeed = 7;
         Random rand = new Random();
         Image[] birdFrames;
         int currentFrame = 0;
@@ -173,7 +173,7 @@ namespace WindowsFormsApp1
         {
             int gap = 150; // Üst ve alt boru arası boşluk
             int minY = 4;
-            int maxY = this.ClientSize.Height - ground.Height - gap - 10;
+            int maxY = this.ClientSize.Height - ground.Height - gap - 8;
 
             int pipeTopY = rand.Next(minY, maxY);
 

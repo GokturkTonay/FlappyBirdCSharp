@@ -150,7 +150,7 @@
             // gameOverBox
             // 
             this.gameOverBox.EditValue = global::WindowsFormsApp1.Properties.Resources.gameover;
-            this.gameOverBox.Location = new System.Drawing.Point(161, 215);
+            this.gameOverBox.Location = new System.Drawing.Point(137, 216);
             this.gameOverBox.Name = "gameOverBox";
             this.gameOverBox.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.gameOverBox.Properties.Appearance.Options.UseBackColor = true;
@@ -164,7 +164,7 @@
             // 
             this.scoreLabel.Appearance.Font = new System.Drawing.Font("Microsoft PhagsPa", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.scoreLabel.Appearance.Options.UseFont = true;
-            this.scoreLabel.Location = new System.Drawing.Point(291, 37);
+            this.scoreLabel.Location = new System.Drawing.Point(277, 39);
             this.scoreLabel.Name = "scoreLabel";
             this.scoreLabel.Size = new System.Drawing.Size(138, 49);
             this.scoreLabel.TabIndex = 26;
